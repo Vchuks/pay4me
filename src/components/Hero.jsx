@@ -1,8 +1,8 @@
 const Hero = () => {
   return (
-    <div className="bg-[url('../src/assets/images/herobg.png')] bg-contain xl:bg-cover xl:bg-center bg-no-repeat flex flex-col lg:flex-row items-end py-4 md:py-20">
-      <div className="w-full px-4 md:px-10 lg:pl-24 lg:pr-0">
-        <h1 className="leading-snug text-3xl md:text-5xl lg:text-6xl text-[#18063C] font-[sansSemibold] w-full md:w-2/4 lg:w-[30rem] lg:text-[2.7rem] xl:text-[3.2rem] lg:pt-10 xl:pt-28">
+    <div className="md:bg-[url('../src/assets/images/herobg.png')] bg-contain 2xl:bg-cover bg-no-repeat flex flex-col lg:flex-row items-end py-4 md:py-20">
+      <div className="w-full px-4 md:px-10 lg:pl-24 lg:pr-0 xl:pl-32">
+        <h1 className="leading-snug text-3xl md:text-5xl lg:text-6xl text-[#18063C] font-[sansSemibold] w-full md:w-2/4 lg:w-[30rem] xl:w-[35rem] lg:text-[2.7rem] xl:text-[3.2rem] lg:pt-10 xl:pt-20">
           Cross-Border Payments For International Students
         </h1>
         <p className="lg:text-lg w-full md:w-[30rem] lg:w-[23rem] xl:w-[30rem] py-5 font-[sansLight] leading-loose">
@@ -23,7 +23,8 @@ const Hero = () => {
             name="play-store"
           ></box-icon>
           <p className="font-[einaSM] text-sm w-36">
-            Download on the <span className="text-xl md:text-[1.5625rem]">App Store</span>
+            Download on the{" "}
+            <span className="text-xl md:text-[1.5625rem]">App Store</span>
           </p>
         </button>
       </div>
