@@ -8,7 +8,7 @@ const Navbar = () => {
   };
   return (
     <>
-      <div className="w-full bg-white flex sticky top-0 justify-between items-center p-2 md:px-10 lg:px-20 xl:px-28 py-4">
+      <div className="w-full z-10 bg-white flex sticky top-0 justify-between items-center p-2 md:px-10 lg:px-20 xl:px-28 py-4">
         <div className="w-30 md:w-44 lg:w-60">
           <img src={logo} alt="" className="w-full" />
         </div>

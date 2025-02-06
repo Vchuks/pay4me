@@ -1,10 +1,26 @@
 import person from "../assets/images/person.png";
 import person2 from "../assets/images/Component 2.png";
+import naira from "../assets/images/naira.png"
+import payment from "../assets/images/payments.png"
 
 const Pay = () => {
   return (
-    <div className="p-3 md:px-10 lg:px-20 xl:px-28">
-      <div className="flex items-center flex-col lg:flex-row gap-8 ">
+    <div className="p-3 relative md:px-10 lg:px-20 xl:px-28">
+        <div className="w-24 md:w-40 absolute top-0 left-0">
+          <img
+            src={naira}
+            alt=""
+            className="w-full"
+          />
+        </div>
+      <div className="relative flex items-center flex-col lg:flex-row gap-8 lg:pt-20">
+        <div className="w-16 md:w-24 absolute top-5 right-0">
+          <img
+            src={payment}
+            alt=""
+            className="w-full"
+          />
+        </div>
         <div className="w-full ">
           <img
             src={person}
@@ -26,6 +42,7 @@ const Pay = () => {
           </button>
         </div>
       </div>
+
       <div className="flex items-center flex-col-reverse lg:flex-row gap-8 lg:pt-20">
         <div className="w-full">
           <h2 className="text-[#12141D] w-full lg:w-[23rem] font-[sansSemibold] text-3xl md:text-[2.43rem]">

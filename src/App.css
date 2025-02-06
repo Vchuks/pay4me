@@ -1,0 +1,21 @@
+.mySlides{
+  display: none;
+}
+.dot{
+  background-color: #2D2B2E33;
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  cursor: pointer;
+  border-radius: 50%;
+  margin: 0 5px;
+}
+.active{
+  background-color: #2D2B2E;
+}
+
+@media (max-width: 992px) {
+ .mySlides{
+  flex-direction: column;
+ }
+}
