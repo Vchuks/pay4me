@@ -1,7 +1,7 @@
-.mySlides{
+.mySlides, .mySlides2{
   display: none;
 }
-.dot{
+.dot, .dot2{
   background-color: #2D2B2E33;
   display: inline-block;
   width: 15px;
@@ -10,12 +10,12 @@
   border-radius: 50%;
   margin: 0 5px;
 }
-.active{
+.active, .active2{
   background-color: #2D2B2E;
 }
 
 @media (max-width: 992px) {
- .mySlides{
+ .mySlides, .mySlides2{
   flex-direction: column;
  }
 }
