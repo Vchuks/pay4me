@@ -29,7 +29,7 @@ const Navbar = () => {
         <box-icon name="menu-alt-right" onClick={handleNav} class="block lg:hidden "></box-icon>
       </div>
       {nav && (
-        <nav className="flex flex-col transition-transform lg:hidden gap-10 pb-4 md:pt-4 md:pb-8 px-3 md:px-11">
+        <nav className="flex flex-col pt-4 transition-transform lg:hidden gap-10 pb-4 md:pt-4 md:pb-8 px-3 md:px-11">
           <a href="#" className="text-[#404040]">
             About
           </a>
