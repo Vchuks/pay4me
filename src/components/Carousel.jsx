@@ -76,6 +76,86 @@ const Carousel = () => {
           
           
         </div>
+        <div className="mySlides flex gap-12">
+          <div className="lg:w-4/5 p-4 border border-[#E8E8EA] rounded-xl">
+            <img src={pic1} alt="" className="w-full" />
+            <div className="">
+              <p className="w-fit bg-[#03D44A0D] rounded-md px-2 py-1 text-[#03D44A] text-sm font-[sansMedium] mt-5">Education</p>
+              <p className="w-[95%] text-[#181A2A] py-5 text-2xl font-[sansMedium]">Navigating International Payments for Education without Stress</p>
+              <div className="text-[#97989F] flex gap-3 items-center pb-2">
+                <img src={holder} alt="w-fit" />
+                <p>John Ebuka</p>
+                <p>December 29, 2024</p>
+              </div>
+            </div>
+          </div>
+          <div className="lg:w-4/5 p-4 border border-[#E8E8EA] rounded-xl">
+            <img src={pic1} alt="" className="w-full" />
+            <div className="">
+              <p className="w-fit bg-[#03D44A0D] rounded-md px-2 py-1 text-[#03D44A] text-sm font-[sansMedium] mt-5">Education</p>
+              <p className="w-[90%] text-[#181A2A] py-5 text-2xl font-[sansMedium]">Step by Step on How to Pay Tuition from Nigeria to Ghana</p>
+              <div className="text-[#97989F] flex gap-3 items-center pb-2">
+                <img src={holder} alt="w-fit" />
+                <p>John Ebuka</p>
+                <p>December 30, 2024</p>
+              </div>
+            </div>
+          </div>
+          <div className="lg:w-4/5 p-4 border border-[#E8E8EA] rounded-xl">
+            <img src={pic1} alt="" className="w-full" />
+            <div className="">
+              <p className="w-fit bg-[#03D44A0D] rounded-md px-2 py-1 text-[#03D44A] text-sm font-[sansMedium] mt-5">Education</p>
+              <p className=" text-[#181A2A] py-5 text-2xl font-[sansMedium]">Why Universities prefer Pay4Me app as their Africa Payment Partner</p>
+              <div className="text-[#97989F] flex gap-3 items-center pb-2">
+                <img src={holder} alt="w-fit" />
+                <p>John Ebuka</p>
+                <p>December 30, 2024</p>
+              </div>
+            </div>
+          </div>
+          
+          
+        </div>
+        <div className="mySlides flex gap-12">
+          <div className="lg:w-4/5 p-4 border border-[#E8E8EA] rounded-xl">
+            <img src={pic1} alt="" className="w-full" />
+            <div className="">
+              <p className="w-fit bg-[#03D44A0D] rounded-md px-2 py-1 text-[#03D44A] text-sm font-[sansMedium] mt-5">Education</p>
+              <p className="w-[95%] text-[#181A2A] py-5 text-2xl font-[sansMedium]">Navigating International Payments for Education without Stress</p>
+              <div className="text-[#97989F] flex gap-3 items-center pb-2">
+                <img src={holder} alt="w-fit" />
+                <p>John Ebuka</p>
+                <p>December 29, 2024</p>
+              </div>
+            </div>
+          </div>
+          <div className="lg:w-4/5 p-4 border border-[#E8E8EA] rounded-xl">
+            <img src={pic1} alt="" className="w-full" />
+            <div className="">
+              <p className="w-fit bg-[#03D44A0D] rounded-md px-2 py-1 text-[#03D44A] text-sm font-[sansMedium] mt-5">Education</p>
+              <p className="w-[90%] text-[#181A2A] py-5 text-2xl font-[sansMedium]">Step by Step on How to Pay Tuition from Nigeria to Ghana</p>
+              <div className="text-[#97989F] flex gap-3 items-center pb-2">
+                <img src={holder} alt="w-fit" />
+                <p>John Ebuka</p>
+                <p>December 30, 2024</p>
+              </div>
+            </div>
+          </div>
+          <div className="lg:w-4/5 p-4 border border-[#E8E8EA] rounded-xl">
+            <img src={pic1} alt="" className="w-full" />
+            <div className="">
+              <p className="w-fit bg-[#03D44A0D] rounded-md px-2 py-1 text-[#03D44A] text-sm font-[sansMedium] mt-5">Education</p>
+              <p className=" text-[#181A2A] py-5 text-2xl font-[sansMedium]">Why Universities prefer Pay4Me app as their Africa Payment Partner</p>
+              <div className="text-[#97989F] flex gap-3 items-center pb-2">
+                <img src={holder} alt="w-fit" />
+                <p>John Ebuka</p>
+                <p>December 30, 2024</p>
+              </div>
+            </div>
+          </div>
+          
+          
+        </div>
         
 
         {/* <div className="mySlides fade">
